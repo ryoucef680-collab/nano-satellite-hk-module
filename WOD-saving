@@ -60,7 +60,8 @@ pip install pyserial
 4. Run the script while Arduino is connected
 5. The file `WOD_telemetry_YYYYMMDD_HHMMSS.csv` will be created on your laptop
 
----
+
+
 
 ## What the CSV file will look like
 ```
