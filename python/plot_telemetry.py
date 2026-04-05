@@ -45,17 +45,17 @@ with open(filename, 'w', newline='') as csvfile:
                 writer.writerow([st, vbat, v3v3, v5v,
                                   i3v3, i5v, cp, pp, fm, rs])
                 csvfile.flush()  # save immediately
-```
 
----
 
-## How to use it
+
+'''
+ How to use it
 
 1. Install Python on Windows if not already installed
 2. Install the `pyserial` library:
-```
+
 pip install pyserial
-```
+
 3. Check your Arduino COM port in Device Manager (e.g. `COM3`)
 4. Run the script while Arduino is connected
 5. The file `WOD_telemetry_YYYYMMDD_HHMMSS.csv` will be created on your laptop
@@ -64,9 +64,10 @@ pip install pyserial
 
 
 ## What the CSV file will look like
-```
+
 sat_time,vbat,volt_3V3,volt_5V,current_3V3,current_5V,charging_power,consumed_power,free_memory,resets
 12,3842,3301,4987,143,211,512,287,347821,3
 15,3756,3298,4991,151,198,487,301,347650,3
 18,3901,3305,4978,138,224,521,279,347432,3
-...
+
+'''
