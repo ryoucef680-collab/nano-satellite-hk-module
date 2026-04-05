@@ -295,16 +295,11 @@ make
 
 ---
 
-## 👨‍💻 Authors
+## 👨‍💻 Developed in
 
-| Name | Role |
-|------|------|
-| **RAHALI Youcef** | Development, simulation, documentation |
-| **LIOUANI Mostefa** | Development, simulation, documentation |
-
-**Supervisor:** BOUZIANE Youcef  
-**Institution:** Higher School of Applied Sciences — ESSA Tlemcen  
 **Host organisation:** Satellite Development Centre — CDS/ASAL  
+**Institution:** Higher School of Applied Sciences — ESSA Tlemcen  
+
 **Date:** March 2026
 
 ---
