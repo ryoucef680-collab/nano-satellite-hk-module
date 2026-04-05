@@ -12,7 +12,7 @@
 The full technical report documenting the architecture analysis, function documentation,
 FreeRTOS orchestration design, and simulation results is available here:
 
-📎 **[Read the Internship Report (PDF)](./Docs/nanosat.pdf)**
+📎 **[Read the Internship Report (PDF)](./Docs/Report_HK_nanosat.pdf)**
 
 The report covers:
 - GlobusSat open-source reference architecture
