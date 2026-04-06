@@ -5,10 +5,9 @@ from datetime import datetime
 # Change COM3 to your actual Arduino port
 ser = serial.Serial('COM3', 9600, timeout=1)
 
-filename = f"WOD_telemetry_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
-
+filename = r"C:\Users\Admin\Desktop\WOD_telemetry_"+str(datetime.now().strftime('%Y~%m~%d_%H;%M;%S'))+".csv"
 with open(filename, 'w', newline='') as csvfile:
-    writer = csv.writer(csvfile)
+    writer = csv.writer(csvfile, delimiter=';')
     # Write header
     writer.writerow(['sat_time', 'vbat', 'volt_3V3', 'volt_5V',
                      'current_3V3', 'current_5V', 'charging_power',
