@@ -2,7 +2,6 @@ import serial
 import csv
 from datetime import datetime
 
-# Change COM3 to your actual Arduino port
 ser = serial.Serial('COM3', 9600, timeout=1)
 
 filename = r"C:\Users\Admin\Desktop\WOD_telemetry_"+str(datetime.now().strftime('%Y~%m~%d_%H;%M;%S'))+".csv"
