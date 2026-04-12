@@ -63,7 +63,7 @@ nano-satellite-hk-module/
 ├── python/
 │   ├── serial_logger.py            # Reads Serial Monitor, parses WOD lines
 │   ├── plot_telemetry.py           # Plots vbat, currents, power over time
-│   └── wod_output.csv              # Example CSV output
+│   └── WOD_telemetry_2026~04~01_11;16;46.csv              # Example CSV output
 │
 ├── docs/
 │   └── nanosat.pdf                 # Full internship report
